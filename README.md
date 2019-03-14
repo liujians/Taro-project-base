@@ -58,3 +58,9 @@ dev 启动
 > yarn commit // 使用统一的commit脚本来进行提交，更加规范和统一
 >
 > git push
+
+## vscode 代码片段插件
+
+VsCode插件商店中搜索并安装Taro代码片段插件,方便创建页面文件时快速构建一个基本页面结构
+
+![图片](https://cdn.nlark.com/yuque/0/2019/png/124471/1551775309592-0671de75-9bcb-4b13-9851-86c8cca83ac6.png)
