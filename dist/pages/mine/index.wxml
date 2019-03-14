@@ -1,0 +1,29 @@
+<block>
+    <view>
+        <view class="{{styles.avatorContainer}}">
+            <block>
+                <block wx:if="{{userInfo}}">
+                    <view class="{{styles.avatorImg}}">
+                        <image src="{{userInfo.avatarUrl}}"></image>
+                    </view>
+                </block>
+                <block wx:else>
+                    <view class="{{styles.notLogin}}">
+                        <image src="{{notLogin}}"></image>
+                    </view>
+                </block>
+            </block>
+            <view class="{{styles.nickName}}">{{userInfo.nickName}}</view>
+        </view>
+        <block>
+            <block wx:if="{{userInfo}}">
+                <view class="{{styles.minePlaceHolder}}">
+                    <image src="{{minePlaceholder}}"></image>
+                </view>
+            </block>
+            <block wx:else>
+                <button class="{{styles.getInfoBtn}}" open-type="getUserInfo" bindgetuserinfo="tobegin">授权</button>
+            </block>
+        </block>
+    </view>
+</block>

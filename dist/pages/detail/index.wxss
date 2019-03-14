@@ -1,0 +1,47 @@
+/*  imported from index.module.less  */
+.index-module__detailContainer___3rJhP {
+  padding-bottom: 150rpx;
+  background: #f9f8f6;
+}
+.index-module__companyHeader___7EjAu {
+  background: #fd5f56;
+  padding: 20rpx 60rpx;
+  position: relative;
+}
+.index-module__companyHeader___7EjAu .index-module__backlogo___3dyI1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 48%;
+  height: 95%;
+}
+.index-module__companyName___1PWSl {
+  color: #482927;
+  font-size: 54rpx;
+  margin-bottom: 80rpx;
+  font-weight: bolder;
+}
+.index-module__companyDay___wghVK {
+  color: #482927;
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+}
+.index-module__instrItems___cAKpE {
+  padding: 20rpx 50rpx;
+}
+.index-module__instrItems___cAKpE .index-module__title___2N5hl {
+  border-left: 10rpx solid #fd5f56;
+  font-size: 32rpx;
+  padding-left: 15rpx;
+  font-weight: bolder;
+  margin: 20rpx 0;
+}
+.index-module__instrItems___cAKpE .index-module__content___1kjkO {
+  font-size: 28rpx;
+  line-height: 1.7;
+  text-align: justify;
+}
+.index-module__instrItems___cAKpE .index-module__content___1kjkO .index-module__tips___ENDJv {
+  color: #999;
+  font-size: 24rpx;
+}

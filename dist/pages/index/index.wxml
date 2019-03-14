@@ -1,0 +1,21 @@
+<block>
+    <view class="index">
+        <view class="{{styles.listContainer}}">{{anonymousState__temp}}
+            <block wx:if="{{positionsList}}">
+                <view wx:key="$original.companyId" class="{{styles.listItem}}" bindtap="anonymousFunc0" wx:for="{{loopArray0}}" wx:for-item="curr" wx:for-index="__index0" data-e-tap-so="this" data-e-tap-a-a="{{__index0}}">
+                    <view class="{{styles.listItemImg}}">
+                        <image src="{{'https://www.lgstatic.com/' + curr.$original.companyLogo}}"></image>
+                    </view>
+                    <view class="{{styles.listItemDescrtion}}">
+                        <view class="{{styles.listItemTitle}}">{{curr.$original.positionName}}</view>
+                        <view class="{{styles.jobsInfos}}">
+                            <view>{{curr.$original.salary}}</view>
+                            <view>[{{curr.$original.city}}]</view>
+                        </view>
+                        <view class="{{styles.companyFullName}}">{{curr.$original.companyFullName}}</view>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+</block>
