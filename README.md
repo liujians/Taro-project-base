@@ -12,6 +12,7 @@
 
 ## 目录结构：
 
+```bash
 .
 ├── config // Taro项目配置，添加了区分project环境变量和请求Url的配置文件
 ├── scripts // eslint和prettier的脚本
@@ -26,6 +27,7 @@
     ├── store
     ├── styles // 样式相关
     └── utils // 工具类
+```
 
 ## 使用方法
 
