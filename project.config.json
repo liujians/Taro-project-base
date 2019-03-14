@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "tarodemo",
   "description": "Demo小程序",
-  "appid": "wxabd8db43d324f485",
+  "appid": "",
   "setting": {
     "urlCheck": false,
     "es6": false,
